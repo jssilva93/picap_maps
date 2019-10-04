@@ -1,5 +1,5 @@
 require "picap_maps/version"
-require "picap_maps"
+require "picap_maps/hexagon_geo"
 
 module PicapMaps
   class Error < StandardError; end
