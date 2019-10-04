@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["jssilva93"]
   spec.email         = ["sebastiansilva@picap.co"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = "picap maps"
+  spec.description   = "picap maps"
   spec.license       = "MIT"
 
 
