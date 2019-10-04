@@ -6,7 +6,6 @@ module PicapMaps
   class Error < StandardError; end
   class << self
     attr_accessor :configuration
-    module_function :configuration
   end
 
   def self.configuration
@@ -20,4 +19,6 @@ module PicapMaps
   def self.configure
     yield(configuration)
   end
+  module_function :configuration
+
 end
