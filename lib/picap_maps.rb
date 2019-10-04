@@ -7,16 +7,15 @@ module PicapMaps
     attr_accessor :configuration
   end
 
-  def self.configure
-    self.configuration ||= Configuration.new
-    yield(configuration)
+  def self.configuration
+    @configuration ||= Configuration.new
   end
 
-  class Configuration
-    attr_accessor :database_name
+  def self.reset
+    @configuration = Configuration.new
+  end
 
-    def initialize
-      @database_name = 'default'
-    end
+  def self.configure
+    yield(configuration)
   end
 end
