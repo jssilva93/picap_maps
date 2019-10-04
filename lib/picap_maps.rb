@@ -1,10 +1,12 @@
 require "picap_maps/version"
 require "picap_maps/hexagon_geo"
+require "picap_maps/configuration"
 
 module PicapMaps
   class Error < StandardError; end
   class << self
     attr_accessor :configuration
+    module_function :configuration
   end
 
   def self.configuration
