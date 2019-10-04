@@ -1,5 +1,4 @@
 require "picap_maps/version"
-require "picap_maps/hexagon_geo"
 require "picap_maps/configuration"
 
 module PicapMaps
@@ -20,3 +19,4 @@ module PicapMaps
   end
 
 end
+require "picap_maps/hexagon_geo"
