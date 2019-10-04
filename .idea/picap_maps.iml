@@ -7,11 +7,17 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel (v5.2.3, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v5.2.3, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bson (v4.5.0, RVM: ruby-2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.0.2, RVM: ruby-2.5.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.11.1, RVM: ruby-2.5.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="h3 (v3.6.0, RVM: ruby-2.5.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rgeo (v2.1.1, RVM: ruby-2.5.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rgeo-geojson (v2.1.1, RVM: ruby-2.5.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.1.10, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.5, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="h3 (v0.0.191@1030d4, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v1.6.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.12.2, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mongo (v2.6.2, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mongoid (v6.3.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.5, RVM: ruby-2.5.1) [gem]" level="application" />
   </component>
 </module>
