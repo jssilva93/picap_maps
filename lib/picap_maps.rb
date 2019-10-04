@@ -3,7 +3,6 @@ require "picap_maps/hexagon_geo"
 require "picap_maps/configuration"
 
 module PicapMaps
-  class Error < StandardError; end
   class << self
     attr_accessor :configuration
   end
@@ -19,6 +18,5 @@ module PicapMaps
   def self.configure
     yield(configuration)
   end
-  module_function :configuration
 
 end
