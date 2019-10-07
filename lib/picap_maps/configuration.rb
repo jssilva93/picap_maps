@@ -3,7 +3,7 @@ module PicapMaps
     attr_accessor :database_name
 
     def initialize
-      @database_name = nil
+      @database_name = 'mongo_map'
     end
   end
 end
