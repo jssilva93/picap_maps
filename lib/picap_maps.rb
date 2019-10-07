@@ -1,6 +1,4 @@
-require "picap_maps/version"
 
-require "picap_maps/configuration"
 module PicapMaps
   class << self
     attr_accessor :configuration
@@ -19,4 +17,7 @@ module PicapMaps
   end
 
 end
+require "picap_maps/version"
+
+require "picap_maps/configuration"
 require "picap_maps/hexagon_geo"
