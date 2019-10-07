@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c5aa9d6-ca4f-429e-add3-2c62653600e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/picap_maps/hexagon_geo.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/picap_maps/hexagon_geo.rb" afterDir="false" />
-    </list>
+    <list default="true" id="5c5aa9d6-ca4f-429e-add3-2c62653600e6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +47,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/picap_maps/hexagon_geo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -67,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/picap_maps/version.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -108,9 +106,9 @@
         <option value="$PROJECT_DIR$/picap_maps.gemspec" />
         <option value="$PROJECT_DIR$/lib/picap_maps/route_polyline.rb" />
         <option value="$PROJECT_DIR$/lib/picap_maps/configuration.rb" />
-        <option value="$PROJECT_DIR$/lib/picap_maps/version.rb" />
         <option value="$PROJECT_DIR$/lib/picap_maps.rb" />
         <option value="$PROJECT_DIR$/lib/picap_maps/hexagon_geo.rb" />
+        <option value="$PROJECT_DIR$/lib/picap_maps/version.rb" />
       </list>
     </option>
   </component>
@@ -190,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570138080907</updated>
       <workItem from="1570138082413" duration="10851000" />
-      <workItem from="1570476802951" duration="965000" />
+      <workItem from="1570476802951" duration="1495000" />
     </task>
     <task id="LOCAL-00001" summary="picap maps">
       <created>1570147684788</created>
@@ -262,11 +260,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570478784666</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="version">
+      <created>1570478875023</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570478875023</updated>
+    </task>
+    <task id="LOCAL-00012" summary="version">
+      <created>1570478989117</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570478989117</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11816000" />
+    <option name="totallyTimeSpent" value="12346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="987" extended-state="6" />
@@ -351,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/picap_maps/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/picap_maps/configuration.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -374,8 +379,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/picap_maps/hexagon_geo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/picap_maps/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
