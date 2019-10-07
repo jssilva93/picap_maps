@@ -1,7 +1,7 @@
 class RoutePolyline
   include Mongoid::Document
   include Mongoid::Timestamps
-  store_in client: "mongo_map"
+  store_in client: PicapMaps.configuration.database_name
 
   belongs_to :origin_hexagon, class_name: "HexagonGeo", index: true
   belongs_to :destination_hexagon, class_name: "HexagonGeo", index: true

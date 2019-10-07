@@ -21,3 +21,4 @@ require "picap_maps/version"
 
 require "picap_maps/configuration"
 require "picap_maps/hexagon_geo"
+require "picap_maps/route_polyline"
