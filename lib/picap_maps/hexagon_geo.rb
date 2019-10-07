@@ -20,7 +20,7 @@ class HexagonGeo
   index({external_id: 1})
   index({external_id: 1, resolution: 1})
 
-  store_in client: 'mongo_map'
+  store_in client: PicapMaps.configuration.database_name
 
   private
 
