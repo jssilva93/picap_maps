@@ -10,7 +10,7 @@ class HexagonGeo
   field :g_country, type: String
   field :g_locality, type: String
   field :area_geo_json, type: Hash, default: {}
-  belongs_to :owner, polymorphic: true, index: true
+  belongs_to :owner, polymorphic: true, index: true, optional: true
 
   field :external_id, type: String
   field :center_coordinates, type: Array
