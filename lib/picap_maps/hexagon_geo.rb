@@ -3,12 +3,12 @@ class HexagonGeo
   include Mongoid::Timestamps
 
   field :address, type: String
-  field :sublocality_lv_1, type: String
-  field :neighborhood, type: String
-  field :adm_area_lv_1, type: String
-  field :adm_area_lv_2, type: String
-  field :country, type: String
-  field :locality, type: String
+  field :g_sublocality_lv_1, type: String
+  field :g_neighborhood, type: String
+  field :g_adm_area_lv_1, type: String
+  field :g_adm_area_lv_2, type: String
+  field :g_country, type: String
+  field :g_locality, type: String
   field :area_geo_json, type: Hash, default: {}
   belongs_to :owner, polymorphic: true, index: true
 
@@ -26,15 +26,15 @@ class HexagonGeo
     begin
 
 
-      obj['g_country'] = self.country
+      obj['g_country'] = self.g_country
 
-      obj['g_adm_area_lv_1'] = self.adm_area_lv_1
+      obj['g_adm_area_lv_1'] = self.g_adm_area_lv_1
 
-      obj['g_adm_area_lv_2'] = self.adm_area_lv_2
+      obj['g_adm_area_lv_2'] = self.g_adm_area_lv_2
 
-      obj['g_neighborhood'] = self.neighborhood
+      obj['g_neighborhood'] = self.g_neighborhood
 
-      obj['g_locality'] = self.locality
+      obj['g_locality'] = self.g_locality
 
 
     rescue Exception => e
