@@ -22,6 +22,28 @@ class HexagonGeo
 
   store_in client: PicapMaps.configuration.database_name
 
+  def add_attributes_to_obj  obj
+    begin
+
+
+      obj['g_country'] = self.country
+
+      obj['g_adm_area_lv_1'] = self.adm_area_lv_1
+
+      obj['g_adm_area_lv_2'] = self.adm_area_lv_2
+
+      obj['g_neighborhood'] = self.neighborhood
+
+      obj['g_locality'] = self.locality
+
+
+    rescue Exception => e
+      p e
+      pp e.backtrace
+    end
+  end
+
+
   private
 
   def set_area_geojson
