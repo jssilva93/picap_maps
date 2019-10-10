@@ -8,8 +8,6 @@ class RoutePolyline
 
 
   index({origin_hexagon_id: 1, destination_hexagon_id: 1})
-  field :encoded_polyline, type: String
-  field :time_in_minutes, type: Integer
-  field :distance_in_meters, type: Integer
+  field :route, type: Hash
 
 end
